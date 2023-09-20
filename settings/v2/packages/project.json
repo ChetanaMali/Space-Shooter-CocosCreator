@@ -1,0 +1,56 @@
+{
+  "__version__": "1.0.5",
+  "general": {
+    "designResolution": {
+      "height": 1920,
+      "width": 1080
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Player"
+      },
+      {
+        "index": 2,
+        "name": "Bullet"
+      },
+      {
+        "index": 3,
+        "name": "Asteroid"
+      },
+      {
+        "index": 4,
+        "name": "Coin"
+      },
+      {
+        "index": 5,
+        "name": "TriggerForBulletDis"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 24,
+      "2": 40,
+      "3": 6,
+      "4": 2,
+      "5": 4
+    }
+  },
+  "layer": [
+    {
+      "name": "Rocket",
+      "value": 1
+    },
+    {
+      "name": "Bullet",
+      "value": 2
+    },
+    {
+      "name": "Asteroid",
+      "value": 4
+    }
+  ]
+}
